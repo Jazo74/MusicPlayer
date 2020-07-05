@@ -4,7 +4,8 @@ public class AudioSong extends Song{
     float samplingFrequency;
     int length;
 
-    public AudioSong(float samplingFrequency, int length) {
+    public AudioSong(String title, float samplingFrequency, int length) {
+        super.title = title;
         this.samplingFrequency = samplingFrequency;
         this.length = length;
     }

@@ -1,5 +1,7 @@
 package com.zoli.MusicPlayer;
 
+import com.zoli.MusicPlayer.Activities.Activity;
+
 public class MenuItem {
     String title;
     Activity activity;

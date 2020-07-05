@@ -4,7 +4,8 @@ public class Mp3Song extends Song{
     float size;
     int length;
 
-    public Mp3Song(float size, int length) {
+    public Mp3Song(String title, float size, int length) {
+        super.title = title;
         this.size = size;
         this.length = length;
     }
