@@ -17,7 +17,7 @@ public class ShowActivity implements Activity {
         if (player.getMode().equals(Player.PlayerMode.AudioCD)){
             AudioSong song = (AudioSong) player.getCurrentSong();
             player.getWriter().write("Song title: " + song.getTitle());
-            player.getWriter().write("Song length: " + song.getLength() + " seconds");
+            player.getWriter().write("Song length: " + song.getLength() + " seconds"      );
             player.getWriter().write("Song sampling frequency: " + song.getSamplingFrequency() + " Hz");
 
         } else if (player.getMode().equals(Player.PlayerMode.MP3CD)){
